@@ -53,19 +53,20 @@ main {
   justify-content: space-around;
   display: flex;
   width: 96vw;
-
-  background-color: #ec9f05;
   border-radius: 40px;
   margin-top: 10px;
 }
 
 #esquerda {
-  width: 30vw;
+  width: 28vw;
+  margin: 10px;
   height: 81vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color:  #ec9f05;
+  border-radius: 40px;
 }
 
 #titleAdicionar {
@@ -155,11 +156,13 @@ main {
 
 #direita {
   width: 66vw;
-  width: 81;
+  height: 81vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color:  #ec9f05;
+  border-radius: 40px;
 }
 
 #tittleEstoque {
