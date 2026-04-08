@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f5f5f5;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  margin: 15px auto;
+  width: 95%;
+  background: #ec9f05;
+  border-radius: 40px;
+  height: 10vh;
+}
+
+
+/* MENU */
+ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+}
+
+ul li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+ul li:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+/* MAIN */
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CARD CENTRAL */
+#opçoes {
+  width: 350px;
+  padding: 40px 20px;
+  border-radius: 25px;
+  background-color: #ec9f05;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+
+#title {
+  font-size: 22px;
+  text-align: center;
+}
+
+/* BOTÃO */
+button {
+  width: 180px;
+  height: 45px;
+  border: none;
+  border-radius: 30px;
+  background: #f6c523;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #000;
+  transform: scale(1.05);
+}
+
+button:hover a {
+  color: #fff;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  width: 95%;
+  height: 10vh;
+  background: #ec9f05;
+  border-radius: 40px;
+  font-size: 17px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  ul {
+    gap: 15px;
+    font-size: 16px;
+  }
+
+  #opçoes {
+    width: 90%;
+  }
+}

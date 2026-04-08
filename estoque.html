@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html"> <button id="btnVoltar">Voltar</button></a>
+
+      <div class="pesquisa-box">
+        <div class="filtro">
+          <input type="text" id="busca" placeholder="Buscar produtos " />
+        </div>
+        <i class="ri-search-line"></i>
+      </div>
+    </header>
+    <main>
+      ''
+      <div id="esquerda">
+        <h2 id="titleAdicionar">Adicionar</h2>
+        <article id="divNome">
+          <h3 id="nomeTittle"><strong> Nome:</strong></h3>
+          <input type="text" id="adProduto" placeholder="Adicione o Produto" />
+        </article>
+
+        <article id="divQuantidade">
+          <h3><strong>Quant:</strong></h3>
+          <input
+            type="text"
+            id="quantProduto"
+            placeholder="Quantidade do Produto"
+          />
+        </article>
+        <a href="#"> <button id="adicionarBtn">Adicionar Produto</button></a>
+     <button id="btnExcluirTudo">Excluir Tudo</button> 
+    </div>
+
+      <div id="direita">
+        <div id="tittleEstoque">
+ <h1 >Estoque</h1>
+ 
+        </div>
+       
+
+        <div id="listas">
+          <ul id="list"></ul>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
